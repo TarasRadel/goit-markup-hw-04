@@ -318,6 +318,22 @@ justify-content: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
  }
+ 
+ .team-list-icon{
+display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    background-color:red;
+ }
+ .team-item-icon{
+    color:#000;
+    margin: 0 auto;
+    background-color: #4d5ae5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+ }
  /*=====================*/
  /*========Portfolio=============*/
  .portfolio{
