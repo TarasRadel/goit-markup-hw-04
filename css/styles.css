@@ -325,7 +325,17 @@ display: flex;
     gap: 24px;
   
  }
- .team-item-icon{
+ .team-item-link-icon{display: flex;
+    justify-content: center;
+    align-items: center;
+   /* width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;*/}
+.team-item-icon{
 display: flex;
     justify-content: center;
     align-items: center;
@@ -336,8 +346,11 @@ display: flex;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-
  }
+ .team-item-icon:hover,.team-item-icon:active{
+ 
+    background-color: #31d0aa;
+}
  /*=====================*/
  /*========Portfolio=============*/
  .portfolio{
