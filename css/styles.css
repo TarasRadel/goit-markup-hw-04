@@ -93,6 +93,7 @@ align-items: center;
 .header-menu-link:focus
 {
 color: #404BBF ;
+border-bottom: solid #404BBF;
 }
 .header-address {
     font-style: normal;
@@ -123,15 +124,24 @@ color: #404BBF ;
 
 /*============Hero=========*/
 .hero{
-    background-color:#2E2F42;
-    background-image:linear-gradient( rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero_bg.jpg);
+ background-color:#2E2F42;
+   /* background-image:linear-gradient( rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     padding-top: 188px;
     padding-bottom: 188px;
 }
+ .bacg-img{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
+}
    /* .hero-container{
         flex-direction: column;
     justify-content: flex-start;
@@ -541,11 +551,11 @@ gap: 16px;
 
 }
 
-.team-item-link-icon {
+/*.team-item-link-icon {
     display: flex;
     justify-content: center;
-    align-items: center;}
-.footer-list-item-icon{
+    align-items: center;}*/
+.footer-item-link-icon{
     display: flex;
         justify-content: center;
         align-items: center;
@@ -555,11 +565,18 @@ gap: 16px;
         background-color: #4d5ae5;
         width: 40px;
         height: 40px;
+        border:#4d5ae5 ;
         border-radius: 50%;
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-item-link-icon:hover,
+.footer-item-link-icon:active {
+
+    background-color: #31d0aa;}
+
 .foter-social-contenair-titel{
 color: #FFF;
     font-size: 16px;
