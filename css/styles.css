@@ -312,6 +312,8 @@ padding-bottom: 32px;
 justify-content: center;
  align-items: center;
  }
+ 
+ 
 .team-list-item {
     background-color: #fff;
     display:flex;
@@ -346,37 +348,29 @@ justify-content: center;
 display: flex;
     align-items: flex-start;
     gap: 24px;
+    justify-content: center;
   
  }
- .team-item-link-icon{display: flex;
+ .team-item-link-icon{
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius: 50%;
 
-   /* width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;*/}
+   }
 .team-item-icon{
-display: flex;
-    justify-content: center;
-    align-items: center;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
- }
- .team-item-icon:hover,.team-item-icon:active{
+  }
+ .team-item-link-icon:hover,.team-item-link-icon:active{
  
     background-color: #31d0aa;
+}
+.team-list-item-icon{
+    fill:#f4f4fd;
 }
  /*=====================*/
  /*========Portfolio=============*/
