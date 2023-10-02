@@ -222,6 +222,15 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     clip: rect(0 0 0 0);
         overflow: hidden;
    }
+   .container-features-list-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+   }
       .features-list {
        display: flex;
     gap: 24px;
