@@ -365,7 +365,9 @@ display: flex;
     width: 40px;
     height: 40px;
   }
- .team-item-link-icon:hover,.team-item-link-icon:active{
+ .team-item-link-icon:hover,.team-item-link-icon:active,
+ .team-item-link-icon:focus
+ {
  
     background-color: #31d0aa;
 }
