@@ -391,8 +391,8 @@ display: flex;
  .portfolio-list-item{
     display: flex;
     transition-property: box-shadow;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px 32px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 width: 360px;
     padding-bottom: 0px;
     flex-direction: column;
