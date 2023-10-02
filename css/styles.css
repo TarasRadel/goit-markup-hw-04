@@ -28,11 +28,15 @@ img{
 /*============Header=========*/
 .header{
     border-bottom: 1px solid #E7E9FC;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-heder{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .header-logo-dys{
     color: #2e2f42;
@@ -133,7 +137,7 @@ border-bottom: solid #404BBF;
     padding-bottom: 188px;
 }
  .bacg-img{
-    width: 1440px;
+   max-width: 1440px;
     margin: 0 auto;
     background-color: #2E2F42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero_bg.jpg);
@@ -142,25 +146,6 @@ border-bottom: solid #404BBF;
         background-size: cover;
 
 }
-   /* .hero-container{
-        flex-direction: column;
-    justify-content: flex-start;
-        align-items: center;
-    }*/
-   /* .hero-title{
-        justify-content: flex-start;
-        align-self: center;
-        color:  #FFF;
-            font-size: 56px;
-            font-weight: 700;
-            line-height: 1.07;
-            letter-spacing: 0.02em;
-            margin-bottom: 48px;
-            max-width: 496px;
-            padding-top: 188px;
-            margin-left: auto;
-            margin-right: auto;
-    }*/
          .hero-title {
              color: #fff;
              font-size: 56px;
@@ -190,6 +175,8 @@ display: block;
     cursor: pointer;
     padding: 16px 32px;
 border: none;
+transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
    }
    .hero-bye-btn:hover,
    .hero-bye-btn:focus
