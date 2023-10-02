@@ -282,11 +282,10 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
  }
  .container-team-list-item{
-
 padding-top: 32px;
 padding-bottom: 32px;
 justify-content: center;
-    align-items: center;
+ align-items: center;
  }
 .team-list-item {
     background-color: #fff;
