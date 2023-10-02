@@ -83,6 +83,7 @@ align-items: center;
         letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
+        position: relative;
 }
 .header-menu-link{
     color:#2E2F42;
@@ -92,7 +93,9 @@ align-items: center;
         letter-spacing: 0.02em;
         padding-top: 24px;
             padding-bottom: 24px;
-}
+            position: relative;
+    }
+    
 .header-menu-link:hover,
 .header-menu-link:focus
 {
