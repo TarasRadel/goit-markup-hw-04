@@ -567,6 +567,7 @@ gap: 16px;
 }
 
 .footer-item-link-icon:hover,
+.footer-item-link-icon:focus,
 .footer-item-link-icon:active {
 
     background-color: #31d0aa;}
