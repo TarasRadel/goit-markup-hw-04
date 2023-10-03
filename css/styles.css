@@ -481,7 +481,7 @@ overflow: hidden;
    
  }
  .footer-link-logo{
-    align-items: baseline,
+    
  }
 .container-footer{
     padding-left: 156px;
@@ -489,9 +489,8 @@ overflow: hidden;
 }
 .container-footer-social{
 display: flex;
-    align-items: flex-start;
-    gap: 24px;
-gap: 120px;
+align-items: baseline
+margin-right: 120px;
 }
 .footer-link-bl{
 display: inline-block;
