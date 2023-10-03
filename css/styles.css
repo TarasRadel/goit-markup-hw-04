@@ -479,8 +479,7 @@ overflow: hidden;
    
  }
  .footer-link-logo{
-    flex-direction: column;
-        gap: 17.5px;
+    align-items: baseline,
  }
 .container-footer{
     padding-left: 156px;
