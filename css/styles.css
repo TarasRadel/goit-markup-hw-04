@@ -489,7 +489,7 @@ overflow: hidden;
 }
 .container-footer-social{
 display: flex;
-align-items: baseline
+align-items: baseline;
 margin-right: 120px;
 }
 .footer-link-bl{
