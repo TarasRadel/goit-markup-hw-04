@@ -489,7 +489,7 @@ overflow: hidden;
     padding-left: 156px;
   
 }
-.container-footer-social{}
+
 
 .footer-link-bl{
 display: inline-block;
@@ -535,20 +535,12 @@ gap: 16px;
     display: flex;
     gap: 16px;
 }
-.footer-item-link-icon{
-
-}
 .team-list-icon {
     display: flex;
     align-items: flex-start;
     gap: 24px;
 
 }
-
-/*.team-item-link-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;}*/
 .footer-item-link-icon{
     display: flex;
         justify-content: center;
