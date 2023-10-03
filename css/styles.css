@@ -312,7 +312,9 @@ padding-bottom: 32px;
 /*justify-content: center;
  align-items: center;*/
  }
- 
+ .container-team-list-item{
+
+ }
  
 .team-list-item {
     background-color: #fff;
@@ -345,7 +347,7 @@ padding-bottom: 32px;
  }
  
  .team-list-icon{
-display: flex;
+     display: flex;
     align-items: flex-start;
     gap: 24px;
     justify-content: center;
