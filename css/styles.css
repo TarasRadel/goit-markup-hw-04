@@ -484,11 +484,13 @@ overflow: hidden;
     
  }
 .container-footer{
+    display: flex;
+    align-items: baseline;
     padding-left: 156px;
   
 }
 .container-footer-social{
-display: flex;
+
 align-items: baseline;
 margin-right: 120px;
 }
