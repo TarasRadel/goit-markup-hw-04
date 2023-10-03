@@ -524,19 +524,16 @@ display: inline-block;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+
 .foter-social-contenair{
 display: flex;
 flex-direction: column;
 gap: 16px;
-
 }
-/*.footer-social-item{
-    display: flex;
-    background-color: red;
-}*/
+
 .footer-social-list{
     display: flex;
-    gap:24px;
+    gap: 16px;
 }
 .footer-item-link-icon{
 
@@ -580,6 +577,8 @@ color: #FFF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
+
 }
  /*=====================*/
  
