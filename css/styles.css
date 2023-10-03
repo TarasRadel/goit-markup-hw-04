@@ -481,7 +481,7 @@ overflow: hidden;
    
  }
  .footer-link-logo{
-    
+    margin-right: 120px;
  }
 .container-footer{
     display: flex;
@@ -489,11 +489,8 @@ overflow: hidden;
     padding-left: 156px;
   
 }
-.container-footer-social{
+.container-footer-social{}
 
-align-items: baseline;
-margin-right: 120px;
-}
 .footer-link-bl{
 display: inline-block;
 }
